@@ -3,7 +3,7 @@
 A sleek, responsive, and fully interactive web-based calculator featuring both Standard and Scientific computational modes, a persistent tracking history log, and full desktop keyboard support. Developed as a core project during my **Frontend Web Development Internship** at **CodeAlpha**.
 
 ## 🚀 Live Demo
-* [Insert your GitHub Pages or Vercel Deployment Link Here]*
+* https://shravanikale18.github.io/advanced-js-calculator/*
 
 ---
 
