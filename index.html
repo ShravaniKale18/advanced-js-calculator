@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Pro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="box">
+
+        <!-- Heading -->
+        <h2 class="heading">Calculator</h2>
+
+        <!-- Mode -->
+        <div class="mode">
+            <button id="standard-mode" class="mode-btn active">Standard</button>
+            <button id="scientific-mode" class="mode-btn">Scientific</button>
+        </div>
+
+        <!-- Display -->
+        <div class="resultContainer">
+            <div id="display">0</div>
+        </div>
+
+        <!-- Standard Buttons Section -->
+         
+        <!-- Row 1 -->
+        <button class="btn-operation">AC</button>
+        <button class="btn-operation">⌫</button>
+        <button class="btn-operation">%</button>
+        <button class="btn-operation">/</button>
+
+        <!-- Row 2 -->
+        <button class="btn">7</button>
+        <button class="btn">8</button>
+        <button class="btn">9</button>
+        <button class="btn-operation">*</button>
+
+        <!-- Row 3 -->
+        <button class="btn">4</button>
+        <button class="btn">5</button>
+        <button class="btn">6</button>
+        <button class="btn-operation">-</button>
+
+        <!-- Row 4 -->
+        <button class="btn">1</button>
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+        <button class="btn-operation">+</button>
+
+        <!-- Row 5 -->
+        <button class="btn-operation">Clear</button>
+        <button class="btn">0</button>
+        <button class="btn">.</button>
+        <button class="btn-operation">=</button>
+
+
+        <!-- Scientific Buttons Section  -->
+
+        <div class="scientific-buttons">
+
+            <button class="btn-scientific">sin</button>
+            <button class="btn-scientific">cos</button>
+            <button class="btn-scientific">tan</button>
+            <button class="btn-scientific">√</button>
+
+            <button class="btn-scientific">x²</button>
+            <button class="btn-scientific">x³</button>
+            <button class="btn-scientific">log</button>
+            <button class="btn-scientific">ln</button>
+
+            <button class="btn-scientific">(</button>
+            <button class="btn-scientific">)</button>
+            <button class="btn-scientific">π</button>
+            <button class="btn-scientific">e</button>
+
+        </div>
+
+        <!-- History Section -->
+        <div class="historyContainer">
+
+            <button id="history-btn">
+                🕒 Show History
+            </button>
+
+            <button id="clear-history-btn">
+                🗑 Clear History
+            </button>
+
+            <div id="history-list"></div>
+
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
